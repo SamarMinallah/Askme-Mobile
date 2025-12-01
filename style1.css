@@ -1,0 +1,195 @@
+.logo-ml {
+    margin-left: 180px;
+}
+
+/* carousel w and h */
+
+/* Carousel Text */
+.c_mar {
+    height: 450px;
+}
+
+/* Text For Iphone 17 pro */
+.main1_text {
+    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Getthe highlight bg color */
+.high_clr {
+    background-color: #BDD8E9;
+}
+
+/* card2 text */
+.card2_text {
+    position: relative;
+    top: -280px;
+    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/* Card 3 text  */
+.card3_text {
+    position: relative;
+    top: -350px;
+    left: 10px;
+    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* Card.btn text styling */
+.card-btn {
+    position: relative;
+    top: 250px;
+
+}
+
+/* Text for carousel */
+.cr-text {
+    position: relative;
+    top: -600px;
+    color: white;
+    text-align: center;
+}
+
+/* Text For Video Mainpage */
+.cr-text2 {
+    position: relative;
+    top: 390px;
+    color: white;
+    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-weight: lighter;
+    font-size: 500px;
+    text-align: center;
+}
+
+/* Get the Highlight Text */
+.get_text {
+    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-weight: lighter;
+    font-size: 80px;
+    text-align: left;
+}
+
+/* For Carousek MOto Pic */
+.cr-text3 {
+    font-family: 'SF Pro Display';
+    font-size: larger;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: white;
+}
+
+/* for img-text */
+.cr-text4 {
+    position: relative;
+    top: -510px;
+    color: white;
+}
+
+/* for img border radius */
+.b_rad {
+    border-radius: 15px;
+}
+
+/* bg colr */
+.box {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(216, 216, 216);
+}
+
+/* Card hover of get value */
+.hov_car {
+    box-shadow: 0px 0px 10px 10px grey;
+    width: 260px;
+    transition: all 0.4s linear;
+}
+
+.hov_car:hover {
+    transform: scale(1.1);
+}
+
+/* position of button in get value */
+.but-pos {
+    border: none;
+}
+
+/* Card styling of 2 cards get the highlights */
+.sty_car {
+    transition: all 0.4s linear;
+}
+
+.sty_car:hover {
+    transform: scale(0.9);
+}
+
+/* Footer */
+.footer-box {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+/* footer margin for rights */
+.foot_margin {
+    margin-top: 180px;
+}
+
+/* footer icon */
+.icon {
+    width: 40px;
+
+}
+
+/* Budget Friendly  */
+.mob-style {
+    transition: all 0.4s linear;
+    background-color: #E9EAE7;
+    border-radius: 20px;
+    transition: all 0.1s linear;
+
+}
+
+.mob-style:hover {
+    transform:scale(0.9);
+    box-shadow: 0px 0px 5px 5px rgb(78, 78, 78);
+}
+
+
+/* For Nav dropdown */
+.drop-style {
+    height: 300px;
+    width: 1500px;
+    box-sizing: border-box;
+    max-width: 1024px;
+    border-radius: 30px;
+    background-color: #E9EAE7;
+}
+
+/* For Img styling in dropdown */
+.img-drop {
+    border-radius: 10px;
+    transition: all 0.1s linear;
+    width: 100px;
+}
+.img-drop:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    
+}
+/* for dropdown headings */
+.head-drop:hover{
+background-color: rgb(192, 192, 192);
+border-radius: 40px;
+width: 80px;
+}
+/* For Budget Friendly button */
+.butn-mar{
+margin-left: 10px;
+}
