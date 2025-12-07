@@ -1,3 +1,7 @@
+*body {
+    background-color: whitesmoke;
+}
+
 .logo-ml {
     margin-left: 180px;
 }
@@ -11,7 +15,7 @@
 
 /* Text For Iphone 17 pro */
 .main1_text {
-    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 20px;
 }
@@ -23,36 +27,23 @@
 
 /* card2 text */
 .card2_text {
-    position: relative;
-    top: -280px;
-    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    transform: translateY(20px);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 30px;
     text-align: center;
 
 }
 
-/* Card 3 text  */
-.card3_text {
-    position: relative;
-    top: -350px;
-    left: 10px;
-    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
-    font-weight: bolder;
-    font-size: 30px;
-}
-
 /* Card.btn text styling */
 .card-btn {
-    position: relative;
-    top: 250px;
+    transform: translateY(10px);
 
 }
 
 /* Text for carousel */
 .cr-text {
-    position: relative;
-    top: -600px;
+    transform: translateY(-400px);
     color: white;
     text-align: center;
 }
@@ -62,7 +53,7 @@
     position: relative;
     top: 390px;
     color: white;
-    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 500px;
     text-align: center;
@@ -70,15 +61,16 @@
 
 /* Get the Highlight Text */
 .get_text {
-    font-family: "" SF Pro Text", " SF Pro Icons", " Helvetica Neue", Helvetica, Arial, sans-serif";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    font-size: 80px;
-    text-align: left;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* For Carousek MOto Pic */
+/* For Carousel MOto Pic */
 .cr-text3 {
-    font-family: 'SF Pro Display';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     position: relative;
     top: 30px;
@@ -86,13 +78,7 @@
     color: white;
 }
 
-/* for img-text */
-.cr-text4 {
-    position: relative;
-    top: -510px;
-    color: white;
-}
-
+/* Get to Know Value */
 /* for img border radius */
 .b_rad {
     border-radius: 15px;
@@ -101,7 +87,7 @@
 /* bg colr */
 .box {
     width: 100%;
-    height: 700px;
+    height: auto;
     background-color: rgb(216, 216, 216);
 }
 
@@ -130,10 +116,59 @@
     transform: scale(0.9);
 }
 
+.card-img1 {
+    width: 100%;
+    height: 500px;
+    background: url('Cell info pic/img2.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* for img 2 */
+.card-img2 {
+    width: 100%;
+    height: 500px;
+    background: url('Cell info pic/img3.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* for img 3 */
+.card-img3 {
+    width: 100%;
+    height: 500px;
+    background: url('Cell info pic/img4.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* for img 4 */
+.card-img4 {
+    width: 100%;
+    height: 500px;
+    background: url('Cell info pic/img5.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* For Text */
+.text-card {
+    transform: translateY(-450px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+
+
 /* Footer */
 .footer-box {
     background-color: #1b1b1b;
     color: white;
+    width: auto;
+    height: auto;
 }
 
 /* footer margin for rights */
@@ -146,21 +181,6 @@
     width: 40px;
 
 }
-
-/* Budget Friendly  */
-.mob-style {
-    transition: all 0.4s linear;
-    background-color: #E9EAE7;
-    border-radius: 20px;
-    transition: all 0.1s linear;
-
-}
-
-.mob-style:hover {
-    transform:scale(0.9);
-    box-shadow: 0px 0px 5px 5px rgb(78, 78, 78);
-}
-
 
 /* For Nav dropdown */
 .drop-style {
@@ -178,18 +198,586 @@
     transition: all 0.1s linear;
     width: 100px;
 }
-.img-drop:hover{
+
+.img-drop:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 5px 5px lightgrey;
-    
+
 }
+
 /* for dropdown headings */
-.head-drop:hover{
-background-color: rgb(192, 192, 192);
-border-radius: 40px;
-width: 80px;
+.head-drop:hover {
+    background-color: rgb(192, 192, 192);
+    border-radius: 40px;
+    width: 80px;
 }
-/* For Budget Friendly button */
-.butn-mar{
-margin-left: 10px;
+
+
+
+.slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mycard1 {
+    width: 100%;
+    height: 550px;
+    background: url('Cell info pic/highlight_1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.mycard2 {
+    width: 100%;
+    height: 550px;
+    background: url('Cell info pic/highlight_2.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* For Carousale images of main page */
+.slider-img1 {
+    background: url('Cell info pic/cr2_3.jpeg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-img2 {
+    background: url('Cell info pic/3\ pic\ Car\ highlight.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-img3 {
+    background: url('Cell info pic/2\ pic\ Carousel\ main.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* For text of slider */
+.slider-text1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For Explore card text */
+.Explore-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For bg of explore cards */
+.bg-clr {
+    background-color: #E9EAE7;
+}
+
+/* for hovers */
+.hov-img {
+    width: 260px;
+    transition: all 0.4s linear;
+}
+
+.hov-img:hover {
+    transform: scale(1.1);
+}
+
+/* For Gallery Page Carousel 1 */
+.Gall-Slider {
+    height: 500px;
+    background: url('Cell info pic/Gallery Carousel1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.Gall-Slider2 {
+    height: 500px;
+    background: url('Cell info pic/Gallery\ Carousel\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.Exp-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* for button of cr1 in gallery page */
+.exp-btn {
+    position: absolute;
+    top: 130%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+/* For Gallery Moto Carousel Text */
+.Carousel-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* For Btn and shop now */
+.Carousel-btn {
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+/* For Gallery Page Crads 4s */
+.gall-card {
+    border-radius: 20px;
+    background: url('Cell info pic/Gall Card 1.jpg')no-repeat;
+    height: 350px;
+    background-size: cover;
+}
+
+.gall-card1 {
+    border-radius: 20px;
+    background: url('Cell info pic/Gall\ Card2.jpg')no-repeat;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.gall-card2 {
+    border-radius: 20px;
+    background: url('Cell info pic/Gall\ Card3.jpg')no-repeat;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.gall-card3 {
+    border-radius: 20px;
+    background: url('Cell info pic/Gall\ Card4.jpg')no-repeat;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* For 4 cardsin Gallery page */
+.cards4-text {
+    transform: translateY(10px);
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 800px;
+    ;
+    text-align: center;
+    color: white;
+}
+
+.cards4-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 70%;
+}
+
+.cards4-text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 80%;
+}
+
+/* For infinite Slider Scroll */
+.carousel {
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 20s infinite linear;
+    padding-right: 1em;
+}
+
+.card {
+    flex: 0 0 15em;
+    height: auto;
+    padding: 1px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%;
+    }
+}
+
+/* For Text */
+.body-card {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+/* For all cards Border None */
+.card-border {
+    border: none;
+}
+
+/* for colors of text 4k */
+
+.for-box {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #ECEDE7 0%, #C0CAD3 35%, #6C7CA0 70%, #cbe2ff 100%);
+
+}
+
+/* for upper heading in 4k moments */
+.head1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    text-align: center;
+}
+.text-4k{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    color:#0A2A43;
+}
+
+/* for hovers on images */
+.img-4k1 {
+    height: 550px;
+    background: url('Cell info pic/4K1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1s linear;
+}
+.img-4k1:hover .btn-hover{
+position: relative;
+top: 400px;
+}
+/* img 4 */
+.img-4k2 {
+    height: 550px;
+    margin-left: 8px;
+    background: url('Cell info pic/4K2.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1s linear;
+}
+.img-4k2:hover .btn-hover{
+position: relative;
+top: 400px;
+}
+/* for button hover */
+.btn-hover {
+    position: relative;
+    left: 40%;
+    top: 550px;
+    background-color:lightgrey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      transition: all 0.2s linear;
+}
+.btn-hover:hover{
+    background-color: gray;
+}
+
+
+/* For Discover box */
+.Discover-box {
+    background: linear-gradient(135deg, #b4b4b4 0%, #E2E2E2 45%, #A7A7A7 100%);
+    width: 100%;
+    height: auto;
+
+}
+
+.img-radius {
+    border-radius: 30px;
+}
+
+/* For Discover Images */
+.discover1 {
+    width: 100%;
+    height: 300px;
+    background: url('Cell info pic/Disc1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.discover2 {
+    width: 100%;
+    height: 300px;
+    background: url('Cell info pic/Disc2.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.discover3 {
+    width: 100%;
+    height: 650px;
+    background: url('Cell info pic/Disc3.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.discover4 {
+    width: 100%;
+    height: 300px;
+    background: url('Cell info pic/Disc4.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.discover5 {
+    width: 100%;
+    height: 300px;
+    background: url('Cell info pic/Disc5.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* for hovers in img */
+.discover {
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    transition: all 0.4s linear;
+}
+
+.discover:hover {
+    transform: scale(0.9);
+}
+
+/* for text of discover */
+.discover-text {
+    transform: translateY(220px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+/* for mid image */
+.discover-text2 {
+    transform: translateY(490px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+
+
+/* Iphone page css start */
+/* for iphone text first */
+.iphone-box{
+    background: lightgrey;
+    height: auto;
+}
+.bg-none{
+    background: none;
+}
+.iphone-text{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    margin-left: 40px;
+}
+/* for sixing of photos */
+.phone-size{
+    height: 80px;
+}
+/* for text */
+.iphones-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/* For exploring line upm iphone */
+.line-img{
+    border-radius: 30px;
+
+}
+/* for text in modals of iphones */
+.line-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.modal-display{
+    margin-top: 10px;
+    border: 1px solid grey;
+    height: 100px;
+    border-radius: 20px;
+    width: 200px;
+}
+/* for logo of apple in kodals */
+.apple-img{
+    height: 80px;
+    align-items: center;
+    margin-left: 30%;
+}
+/* for hovers on image */
+.iphone-hover{
+    transition: all 0.5s ease;
+}
+.iphone-hover:hover{
+    transform: scale(1.1);
+}
+/* for iphone page 1 carousel */
+.carousel-iphone{
+    height: 500px;
+    background: url('Cell info pic/carousel-iphone1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+}
+/* for texts of carousel */
+.carousel-iphone-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+/* for btn positioning */
+.carousel-iphone-btn{
+    position: relative;
+    top: 40%;
+    left: 12%;
+}
+.essentail-img1{
+    height: 850px;
+    background: url('Cell info pic/essentail1.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+.essentail-img2{
+    height: 853px;
+    background: url('Cell info pic/essential2.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    background-color: #f0f0f0;
+}
+/* for text on images */
+.essential-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    position: relative;
+    top: 83%;
+    left: 1%;
+    text-align: center;
+}
+/* for hovers */
+.essential-hover{
+    transition: all 0.5s ease-in-out;
+}
+.essential-hover:hover{
+     transform: scale(0.9);
+}
+/* significant others sectioin */
+.significant-img{
+    background: url('Cell info pic/Significant-1.jpg');
+    background-position: center;
+    background-size: cover;
 }
