@@ -5,6 +5,7 @@
 .get_text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    font-weight: bold;
 }
 .logo-ml {
     margin-left: 180px;
@@ -12,7 +13,7 @@
 /* index page carousel */
 .carousel-img{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background: url('Cell info pic/index-carousel-1.jpg')no-repeat;
     background-position: center;
     background-size: cover;
@@ -39,8 +40,8 @@
 }
 /* for feature products bg on index */
 .feature{
-    background-color:#ebebeb;
-    color: black;
+    background-color:#000000;
+    color:white;
 }
 
 /* for 2 carousel in index page */
@@ -162,12 +163,14 @@
 
 /* Footer */
 .footer-box {
-    background-color: #1b1b1b;
+    background-color:black;
     color: white;
     width: auto;
     height: auto;
 }
-
+ul{
+  list-style: none;
+}
 /* footer margin for rights */
 .foot_margin {
     margin-top: 180px;
@@ -225,7 +228,7 @@
 }
 
 .hov-img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 /* For Gallery Page Carousel 1 */
@@ -745,7 +748,7 @@ border-radius: 30px;
 /* Samsung page styling start */
 .samsung-img{
     width: 100%;
-    height: 700px;
+    height: 800px;
     background: url('Cell info pic/carousel-sam-1.jpg')no-repeat;
     background-position: center;
     background-size: cover;
@@ -763,8 +766,8 @@ border-radius: 30px;
     font-weight: bolder;
 }
 /* carousel video */
-.samsung-vid{
-    margin-top: 5px;
+.samsung-vid {
+    margin-top: 10%;
     width: 100%;
     height: 900px;
     position: relative;
@@ -839,17 +842,49 @@ margin-left: 8%;
 .sam-last{
     width: 500px;
     height: 300px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 10px;
+    margin-left: 90px;
+    
 }
 /* for cards img/icon */
 .samsung-card{
-    margin-left: 280px;
-    margin-top: 10px;
+    margin-left: 285px;
+    margin-top: 25px;
 }
 .sam-last-text{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     font-weight: bolder;
     text-align: center;
+}
+/* for brand page styling start */
+.brand-carousel-img{
+    width: 100%;
+    height: 800px;
+    background: url('Cell info pic/Brand-cr-1.jpeg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.brand-carousel{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.slider-border{
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+}
+.brand-box{
+    width: 80%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    border-radius: 30px;
 }
