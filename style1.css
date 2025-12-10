@@ -206,7 +206,7 @@
 .head-drop:hover {
     background-color: rgb(192, 192, 192);
     border-radius: 40px;
-    width: 80px;
+    width: 90px;
 }
 /* For Explore card text */
 .Explore-text {
@@ -723,7 +723,133 @@ border-radius: 30px;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: bold;
 }
+/* for campare btn */
+.campare-btn{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.campare-nav{
+    margin-right: 20%;
+    text-decoration: none;
+}
+.modal-box-1{
+    border-radius: 15px;
+    background-color: #F9F9F7;
+}
+.modal-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700px;
+}
 /* Samsung page styling start */
 .samsung-img{
-    
+    width: 100%;
+    height: 700px;
+    background: url('Cell info pic/carousel-sam-1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* for text of carousel */
+.text-samsung{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+/* carousel video */
+.samsung-vid{
+    margin-top: 5px;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+
+}
+.samsung-text{
+     position: absolute;
+    top: 2%;
+    left: 10%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.samsung-bg{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+/* for 2 video of samsung */
+.video-samsung{
+margin-left: 8%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+/* for above text */
+.video-text{
+   background: #000;            /* Samsung style black background */
+  color: #fff;                 /* Clean white text */
+  padding: 80px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.video-text-2{
+ background: #000;            /* Samsung style black background */
+  color: #fff;                 /* Clean white text */
+  padding: 80px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 15%;
+}
+/* for card of samsung */
+.border-clr{
+    border: 0.5px solid steelblue;
+    border-radius: 20px;
+}
+.samsung-hover{
+    transition: all 0.5s ease;
+}
+.samsung-hover:hover{
+    transform: scale(0.9);
+}
+/* for video of carousel 3 */
+.video-text-camera{
+    background: #000;            /* Samsung style black background */
+  color: #fff;                 /* Clean white text */
+  padding: 10px 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.sam-last{
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/* for cards img/icon */
+.samsung-card{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.sam-last-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
 }
