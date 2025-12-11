@@ -1,0 +1,126 @@
+/* contact slider start */
+.carousel-item{
+        height: 80vh;
+        min-height: 300px;
+}
+.carousal-caption h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-decoration-color: black;
+  
+}
+.carousel-inner1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+    z-index: 1;
+}
+/* contact slider end */
+/* my support start */
+.box1{
+    background-color:#E9EAE7;
+    height: 200px;
+   border-radius: 20px;
+}
+/* my support end */
+
+/* oppo explore start*/
+.card-bor-none{
+    border:none;
+    justify-items: center;
+    margin-left: 30%;
+    transition: all 0.4s linear;
+   
+}
+.card-bor-none:hover{
+    transform: scale(0.9);
+}
+
+
+/* oppo explore end*/
+
+
+/* slider start */
+.slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* slider end */
+/* contact form start*/
+.row-contact-form{
+   background-color:#E9EAE7;
+   margin-top: 10px;
+}
+/* contact form end */
+/* oppo events start */
+.card-events{
+     box-shadow: 0px 0px 5px 5px lightgrey;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+
+}
+.card-events:hover{
+    transform: scale(0.9);
+}
+/* oppo events end */
+   /* opoo explore start */
+.card-explore{
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    transition: all 0.4s linear;
+    border-radius: 10px;
+}
+.card-explore:hover{
+     transform: scale(0.9);
+
+}
+/* oppo explore end */
+/* techno start */
+ .card-team{
+    background-color: gray;
+ }
+.card-techno{
+   transition: all 0.4s linear;
+}
+.card-techno:hover{
+    transform: scale(0.9);
+}
+/* techno start */
+/* Footer */
+.footer-box {
+    background-color:black;
+    color: white;
+    width: auto;
+    height: auto;
+}
+ul{
+  list-style: none;
+}
+/* footer margin for rights */
+.foot_margin {
+    margin-top: 180px;
+}
+
+/* footer icon */
+.icon {
+    width: 40px;
+
+}
+/* footer end */
+
+
