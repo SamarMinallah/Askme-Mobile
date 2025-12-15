@@ -70,24 +70,22 @@
 /* contact form end */
 /* oppo events start */
 .card-events{
-     box-shadow: 0px 0px 5px 5px lightgrey;
-    transition: all 0.4s linear;
-    border-radius: 10px;
-
+ transition: all 0.5s ease;
 }
 .card-events:hover{
-    transform: scale(0.9);
+     transform: scale(0.9);
+       border-radius: 10px;
+ box-shadow: 0px 0px 5px 5px lightgrey;
 }
 /* oppo events end */
    /* opoo explore start */
 .card-explore{
-    box-shadow: 0px 0px 5px 5px lightgrey;
-    transition: all 0.4s linear;
-    border-radius: 10px;
+    transition: all 0.5s ease;
 }
 .card-explore:hover{
-     transform: scale(0.9);
-
+    transform: scale(0.9);
+       border-radius: 10px;
+ box-shadow: 0px 0px 5px 5px lightgrey;
 }
 /* oppo explore end */
 /* techno start */
