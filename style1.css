@@ -1,46 +1,51 @@
 *body {
     background-color: whitesmoke;
 }
+
 /* for all headings */
-.get_text{
+.get_text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: bold;
 }
+
 /* index page carousel */
-.carousel-img{
+.carousel-img {
     background: url('Cell info pic/index-carousel-1.jpg')no-repeat;
     min-height: 120vh;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
+
 /* for text on carousel 1 */
-.text-carousel{
-text-align: center;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
+.text-carousel {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
+
 /* for btn styling */
 
-.btn-carousel{
+.btn-carousel {
     position: absolute;
     top: 125%;
     left: 45%;
     transform: translate(-50%, -50%);
 }
+
 /* for feature products bg on index */
-.feature{
-    background-color:#000000;
-    color:white;
+.feature {
+    background-color: #000000;
+    color: white;
     width: 100%;
     height: auto;
 }
 
 /* for 2 carousel in index page */
-.carousel-img-2{
+.carousel-img-2 {
     width: 100%;
     height: 700px;
     background: url('Cell info pic/index-carousel-2.jpg')no-repeat;
@@ -48,8 +53,9 @@ font-weight: bold;
     background-size: cover;
     position: relative;
 }
+
 /* for text of carousel 2 in index */
-.carousel2-text{
+.carousel2-text {
     position: absolute;
     top: 5%;
     left: 50%;
@@ -58,14 +64,16 @@ font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
 /* for video card 4 */
-.video-bg{
-    background-color:black;
+.video-bg {
+    background-color: black;
     color: white;
     width: 100%;
     height: auto;
 }
-.video-1{
+
+.video-1 {
     width: 100%;
     height: 500px;
 }
@@ -74,6 +82,7 @@ font-weight: bold;
 .b_rad {
     border-radius: 15px;
 }
+
 /* bg colr */
 .box {
     width: 100%;
@@ -155,14 +164,16 @@ font-weight: bold;
 
 /* Footer */
 .footer-box {
-    background-color:black;
+    background-color: black;
     color: white;
     width: auto;
     height: auto;
 }
-ul{
-  list-style: none;
+
+ul {
+    list-style: none;
 }
+
 /* footer margin for rights */
 .foot_margin {
     margin-top: 180px;
@@ -203,6 +214,7 @@ ul{
     border-radius: 40px;
     width: 90px;
 }
+
 /* For Explore card text */
 .Explore-text {
     font-family: Arial, Helvetica, sans-serif;
@@ -415,11 +427,12 @@ ul{
     font-size: 40px;
     text-align: center;
 }
-.text-4k{
+
+.text-4k {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 70px;
-    color:#0A2A43;
+    color: #0A2A43;
 }
 
 /* for hovers on images */
@@ -432,10 +445,12 @@ ul{
     overflow: hidden;
     transition: all 1s linear;
 }
-.img-4k1:hover .btn-hover{
-position: relative;
-top: 400px;
+
+.img-4k1:hover .btn-hover {
+    position: relative;
+    top: 400px;
 }
+
 /* img 4 */
 .img-4k2 {
     height: 550px;
@@ -447,24 +462,27 @@ top: 400px;
     overflow: hidden;
     transition: all 1s linear;
 }
-.img-4k2:hover .btn-hover{
-position: relative;
-top: 400px;
+
+.img-4k2:hover .btn-hover {
+    position: relative;
+    top: 400px;
 }
+
 /* for button hover */
 .btn-hover {
     position: relative;
     left: 40%;
     top: 550px;
-    background-color:lightgrey;
+    background-color: lightgrey;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-      transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
-.btn-hover:hover{
+
+.btn-hover:hover {
     background-color: gray;
 }
 
@@ -567,61 +585,72 @@ top: 400px;
 
 /* Iphone page css start */
 /* for iphone text first */
-.iphone-box{
+.iphone-box {
     background: lightgrey;
     height: auto;
 }
-.bg-none{
+
+.bg-none {
     background: none;
 }
-.iphone-text{
-    margin-top: 100px;
+
+.iphone-text {
+    margin-top: 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 60px;
     margin-left: 40px;
 }
+
 /* for sixing of photos */
-.phone-size{
+.phone-size {
     height: 80px;
 }
+
 /* for text */
-.iphones-text{
+.iphones-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
 /* For exploring line upm iphone */
-.line-img{
+.line-img {
     border-radius: 30px;
 
 }
+
 /* for text in modals of iphones */
-.line-text{
+.line-text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-.modal-display{
+
+.modal-display {
     margin-top: 10px;
     border: 1px solid grey;
     height: 100px;
     border-radius: 20px;
     width: 200px;
 }
+
 /* for logo of apple in kodals */
-.apple-img{
+.apple-img {
     height: 80px;
     align-items: center;
     margin-left: 30%;
 }
+
 /* for hovers on image */
-.iphone-hover{
+.iphone-hover {
     transition: all 0.5s ease;
 }
-.iphone-hover:hover{
+
+.iphone-hover:hover {
     transform: scale(1.1);
 }
+
 /* for iphone page 1 carousel */
-.carousel-iphone{
+.carousel-iphone {
     height: 500px;
     background: url('Cell info pic/carousel-iphone1.jpg');
     background-position: center;
@@ -630,22 +659,25 @@ top: 400px;
     overflow: hidden;
     border-radius: 50px;
 }
+
 /* for texts of carousel */
-.carousel-iphone-text{
+.carousel-iphone-text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color:black;
+    color: black;
     position: relative;
     top: 40%;
     left: 5%;
 }
+
 /* for btn positioning */
-.carousel-iphone-btn{
+.carousel-iphone-btn {
     position: relative;
     top: 40%;
     left: 12%;
 }
-.essentail-img1{
+
+.essentail-img1 {
     height: 850px;
     background: url('Cell info pic/essentail1.png');
     background-position: center;
@@ -653,7 +685,8 @@ top: 400px;
     border-radius: 30px;
 
 }
-.essentail-img2{
+
+.essentail-img2 {
     height: 853px;
     background: url('Cell info pic/essential2.png');
     background-position: center;
@@ -661,102 +694,120 @@ top: 400px;
     border-radius: 30px;
     background-color: #f0f0f0;
 }
+
 /* for text on images */
-.essential-text{
+.essential-text {
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color: black;
     position: relative;
     top: 83%;
     left: 1%;
     text-align: center;
 }
+
 /* for hovers */
-.essential-hover{
+.essential-hover {
     transition: all 0.5s ease-in-out;
 }
-.essential-hover:hover{
-     transform: scale(0.9);
+
+.essential-hover:hover {
+    transform: scale(0.9);
 }
+
 /* for battery  */
-.iphone-battery{
+.iphone-battery {
     margin-top: 100px;
     margin-left: 300px;
 }
+
 /* for text */
-.battery-text{
+.battery-text {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* magic pictures  */
-.magic-img{
+.magic-img {
     border-radius: 30px;
     border: 1px solid lightgrey;
 }
-.magic-text{
+
+.magic-text {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     text-align: left;
 }
+
 /* for iphone environment */
-.air-1{
-border: 2px solid black;
-height: 200px;
-width: 320px;
-border-radius: 30px;
+.air-1 {
+    border: 2px solid black;
+    height: 200px;
+    width: 320px;
+    border-radius: 30px;
 }
-.purple-clr{
+
+.purple-clr {
     color: purple;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.orange-clr{
+
+.orange-clr {
     color: orange;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-.blue-clr{
-     color:steelblue;
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bold;
+
+.blue-clr {
+    color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
+
 /* for campare btn */
-.campare-btn{
+.campare-btn {
     margin-top: 5%;
     margin-left: 45%;
 }
-.campare-nav{
+
+.campare-nav {
     margin-right: 20%;
     text-decoration: none;
 }
-.modal-box-1{
+
+.modal-box-1 {
     border-radius: 15px;
     background-color: #F9F9F7;
 }
-.modal-text{
+
+.modal-text {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 15px;
     font-size: 20px;
     font-weight: 700px;
 }
+
 /* Samsung page styling start */
-.samsung-img{
-    width: 100%;
-    height: 800px;
+.samsung-img {
     background: url('Cell info pic/carousel-sam-1.jpg')no-repeat;
+    min-height: 120vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
     position: relative;
 }
+
 /* for text of carousel */
-.text-samsung{
+.text-samsung {
     position: absolute;
     top: 60%;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    left: 10%;
+    text-align: center;
     color: white;
-    font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
 }
+
 /* carousel video */
 .samsung-vid {
     margin-top: 10%;
@@ -766,92 +817,109 @@ border-radius: 30px;
     overflow: hidden;
 
 }
-.samsung-text{
-     position: absolute;
+
+.samsung-text {
+    position: absolute;
     top: 2%;
     left: 10%;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 50px;
 
 }
-.samsung-bg{
+
+.samsung-bg {
+    background-color: #000000;
+    color: white;
     width: 100%;
     height: auto;
-    background-color: black;
 }
+
 /* for 2 video of samsung */
-.video-samsung{
-margin-left: 8%;
+.video-samsung {
     width: 100%;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
+
 /* for above text */
-.video-text{
-   background: #000;            /* Samsung style black background */
-  color: #fff;                 /* Clean white text */
-  padding: 80px 20px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 900px;
-  margin: 0 auto;
+.video-text {
+    background: #000;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
 }
-.video-text-2{
- background: #000;            /* Samsung style black background */
-  color: #fff;                 /* Clean white text */
-  padding: 80px 20px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-right: 15%;
+
+.video-text-2 {
+    background: #000;
+    /* Samsung style black background */
+    color: #fff;
+    /* Clean white text */
+    padding: 80px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15%;
 }
+
 /* for card of samsung */
-.border-clr{
+.border-clr {
     border: 0.5px solid steelblue;
     border-radius: 20px;
 }
-.samsung-hover{
+
+.samsung-hover {
     transition: all 0.5s ease;
 }
-.samsung-hover:hover{
+
+.samsung-hover:hover {
     transform: scale(0.9);
 }
+
 /* for video of carousel 3 */
-.video-text-camera{
-    background: #000;            /* Samsung style black background */
-  color: #fff;                 /* Clean white text */
-  padding: 10px 20px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 900px;
-  margin: 0 auto;
+.video-text-camera {
+    background: #000;
+    /* Samsung style black background */
+    color: #fff;
+    /* Clean white text */
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
 }
-.sam-last{
+
+.sam-last {
     width: 500px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 90px;
-    
+
 }
+
 /* for cards img/icon */
-.samsung-card{
+.samsung-card {
     margin-left: 285px;
     margin-top: 25px;
 }
-.sam-last-text{
+
+.sam-last-text {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bolder;
     text-align: center;
 }
+
 /* for brand page styling start */
-.brand-carousel-img{
+.brand-carousel-img {
     width: 100%;
     height: 800px;
     background: url('Cell info pic/Brand-cr-1.jpeg')no-repeat;
@@ -859,20 +927,23 @@ margin-left: 8%;
     background-size: cover;
     position: relative;
 }
-.brand-carousel{
+
+.brand-carousel {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:black;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
-.slider-border{
+
+.slider-border {
     border-radius: 10px;
     border: 2px solid lightgrey;
 }
-.brand-box{
+
+.brand-box {
     width: 80%;
     height: auto;
     background-color: black;
@@ -880,17 +951,20 @@ margin-left: 8%;
     margin-left: 10%;
     border-radius: 30px;
 }
-.brand-dropdown{
+
+.brand-dropdown {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
 /* for fotter href styling */
-.style-none{
+.style-none {
     text-decoration: none;
     color: white;
 }
+
 /* for img */
-.contact-img{
+.contact-img {
     width: 100%;
     height: 600px;
     background: url('Cell info pic/contact-carousel.jpg')no-repeat;
@@ -898,14 +972,15 @@ margin-left: 8%;
     background-size: cover;
     position: relative;
 }
-.contact-text{
+
+.contact-text {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 50%;
     text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:white;
+    color: white;
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
