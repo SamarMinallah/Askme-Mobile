@@ -187,7 +187,7 @@ ul {
 
 /* For Nav dropdown */
 .drop-style {
-    height: 300px;
+    height:auto;
     width: 1500px;
     box-sizing: border-box;
     max-width: 1024px;
@@ -237,7 +237,7 @@ ul {
 
 /* For Gallery Page Carousel 1 */
 .Gall-Slider {
-    height: 500px;
+    height: 800px;
     background: url('Cell info pic/Gallery Carousel1.jpg')no-repeat;
     background-position: center;
     background-size: cover;
@@ -788,13 +788,11 @@ ul {
 
 /* Samsung page styling start */
 .samsung-img {
-    background: url('Cell info pic/carousel-sam-1.jpg')no-repeat;
-    min-height: 120vh;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    position: relative;
+    width: 100%;
+  min-height: 100vh;       
+  background: url("Cell info pic/carousel-sam-1.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
 }
 
 /* for text of carousel */
@@ -831,12 +829,10 @@ ul {
     font-size: 50px;
 
 }
-
 .samsung-bg {
     background-color: #000000;
     color: white;
     width: 100%;
-    height: auto;
 }
 
 /* for 2 video of samsung */
@@ -895,27 +891,10 @@ ul {
     max-width: 900px;
     margin: 0 auto;
 }
-
-.sam-last {
-    width: 500px;
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-left: 90px;
-
-}
-
 /* for cards img/icon */
 .samsung-card {
     margin-left: 285px;
     margin-top: 25px;
-}
-
-.sam-last-text {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
 }
 
 /* for brand page styling start */
