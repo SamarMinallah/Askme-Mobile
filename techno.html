@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="style3.css">
       <link rel="stylesheet" href="style1.css">
        <link rel="icon" href="Cell info pic/icon-cellinfo.png" type="image/x-icon">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <style>
       .modal-display{
     margin-top: 10px;
@@ -22,11 +23,11 @@
      </style>
 </head>
 <body>
-   <!-- navbar start -->
+  <!-- navbar start -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand logo-ml" href="#">
-        <img src="Cell info pic/Cell-info-removebg-preview.png" alt="logo" style="width: 100px;">
+        <img src="Cell info pic/Cell-info-removebg-preview.png" alt="logo" style="width: auto; height: 45px; object-fit: contain;">
       </a>
       <button  class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"><span class="navbar-toggler-icon"></span>
@@ -108,7 +109,7 @@
     <div class="card-team">
          <div class="container-fluid">
     <div class="row text-center mb-5">
-        <h1 class="text-center mt-5 mb-5 tecno-card-text">RECOMMENDATION OF THE MONTH</h1>
+        <h1 class="text-center mt-5 mb-5 tecno-card-text" data-aos="fade-up">RECOMMENDATION OF THE MONTH</h1>
         <div class="col-md-4">
             <div class="card-techno mb-5">
   <img src="pic/techno card1.webp" class="card-img-top" alt="...">
@@ -143,7 +144,9 @@ Learn more
   <div class="card-body">
     <h5 class="card-title">SPARK 40 Pro+</h5>
      <!-- Button trigger modal -->
-
+<button type="button" class="btn btn-outline-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+Learn more
+</button>
   </div>
 </div>
         </div>
@@ -233,7 +236,7 @@ Learn more
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="pic/techno card1.webp" alt="" class="line-img" style="width: 100; height: 100;">
+          <img src="pic/techno card1.webp" alt="" class="line-img" style="width: 450px; height: 300px;">
           <div class="container">
             <div class="row">
               <div class="col-md-6 modal-display">
@@ -248,6 +251,10 @@ Learn more
               </div>
             </div>
           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary rounded-pill" > <a href="Features of all iPhone Models.pdf" download="features of iphone" style="text-decoration: none; color: white;" target="_blank">More Info</a> </button>
+          <button type="button" class="btn btn-primary rounded-pill">Buy Now</button>
         </div>
         </div>
         </div>
@@ -262,7 +269,7 @@ Learn more
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="" alt="" class="line-img">
+          <img src="pic/techno card2.webp" alt="" class="line-img"  style="width: 450px; height: 300px;">
           <div class="container">
             <div class="row">
               <div class="col-md-6 modal-display">
@@ -277,6 +284,10 @@ Learn more
               </div>
             </div>
           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary rounded-pill" > <a href="Tecno feature list.pdf" download="features of iphone" style="text-decoration: none; color: white;" target="_blank">More Info</a> </button>
+          <button type="button" class="btn btn-primary rounded-pill">Buy Now</button>
         </div>
         </div>
         </div>
@@ -291,7 +302,7 @@ Learn more
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="" alt="" class="line-img">
+          <img src="pic/techno card3.webp" alt="" class="line-img" style="width: 450px; height: 300px;">
           <div class="container">
             <div class="row">
               <div class="col-md-6 modal-display">
@@ -307,10 +318,18 @@ Learn more
             </div>
           </div>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary rounded-pill" > <a href="Features of all iPhone Models.pdf" download="features of iphone" style="text-decoration: none; color: white;" target="_blank">More Info</a> </button>
+          <button type="button" class="btn btn-primary rounded-pill">Buy Now</button>
+        </div>
         </div>
         </div>
         </div>
          <!-- modal 3 end -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="cantact.js"></script>
 </body>
